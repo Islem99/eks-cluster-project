@@ -22,7 +22,6 @@ module "myapp-vpc" {
     enable_nat_gateway = true
     single_nat_gateway = true
     enable_dns_hostnames = true
-    endpoint_public_access = true
      
     tags = {
         "kubernetes.io/cluster/myapp-eks-cluster" = "shared"
