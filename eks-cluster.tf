@@ -39,5 +39,4 @@ module "eks" {
       instance_types = ["t2.medium"]
     }
   }
-eks_cluster_endpoint_public_access  = true
 }
